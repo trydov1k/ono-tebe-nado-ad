@@ -1,1 +1,10 @@
 /* место для вашего кода */
+
+.title {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;  /* Удаляем маркеры у списка карточек */
+}
+
