@@ -25,6 +25,10 @@ blockquote {
   padding: 0;
 }
 
+ul {
+  list-style: none;  /* Удаляем маркеры у списка карточек */
+}
+
 a {
   color: inherit;
 }

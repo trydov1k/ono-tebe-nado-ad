@@ -1,13 +1,5 @@
 /* место для вашего кода */
 
-.title {
-  text-transform: uppercase;
-}
-
-ul {
-  list-style: none;  /* Удаляем маркеры у списка карточек */
-}
-
 .page {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
@@ -119,4 +111,76 @@ ul {
   font-size: 22px;
   color: #fff;
   text-transform: uppercase;
+}
+
+.lots {
+  padding: 180px 24px 0;
+}
+
+.lots__heading {
+  padding: 0 0 27px 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link, .card_type_film, .card_type_book, .card_type_picture {
+  position: relative;
+  height: 100%;
+}
+
+.card_type_film, .card_type_book, .card_type_picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.card__title {
+  padding: 48px 40px 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.card__text {
+  z-index: 1;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+  padding: 0 40px 48px;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  text-decoration: underline;
+}
+
+.about {
+  padding: 120px 24px 0;
 }
