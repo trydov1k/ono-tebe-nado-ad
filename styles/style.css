@@ -2,9 +2,7 @@
 
 .page {
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  width: 1100px;
 }
 
 .header {
@@ -83,20 +81,27 @@
   left: 50px;
 }
 
-.cover__title p {
-  letter-spacing: 30px;
-}
-
 .aligned-text {
   justify-self: start;
+  letter-spacing: 30px;
 }
 
 .aligned-text_center {
   justify-self: center;
+  align-self: center;
+}
+
+.aligned-text_center span {
+  letter-spacing: 30px;
 }
 
 .aligned-text_right {
   justify-self: end;
+  align-self: end
+}
+
+.aligned-text_right span {
+  letter-spacing: 30px;
 }
 
 .cover__description {
@@ -111,8 +116,19 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  letter-spacing: 90%;
   color: #fff;
+}
+
+.cover__description-text span:nth-child(2), .cover__description-text span:nth-child(6) {
+  padding-left: 25px;
+}
+
+.cover__description-text span:nth-child(3), .cover__description-text span:nth-child(4), .cover__description-text span:nth-child(7) {
+  padding-left: 24px;
+}
+
+.cover__description-text span:nth-child(5) {
+  padding-left: 23px;
 }
 
 .bet-button {
@@ -225,10 +241,6 @@
   background-image: url("../images/logo-white.svg");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.about-column {
-
 }
 
 .about__title {
