@@ -135,7 +135,6 @@
   width: 256px;
   height: 51px;
   background-color: transparent;
-  border: none;
   border: 1px solid #fff;
   font-size: 22px;
   color: #fff;
@@ -295,6 +294,6 @@
   height: 48px;
 }
 
-.address {
+.footer .address {
   margin-left: 50px;
 }
