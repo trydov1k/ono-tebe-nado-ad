@@ -30,12 +30,8 @@
 }
 
 .header__logo {
-  display: block;
   width: 148px;
   height: 105px;
-  background-image: url("../images/logo-black.svg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .address {
